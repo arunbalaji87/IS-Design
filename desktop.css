@@ -5,7 +5,7 @@ body {
 	}
 
 nav {
-	position: absolute;
+	position: fixed;
 	width: 20%;
 	height: 100%;
 	margin: 0 0 0 0;
@@ -18,7 +18,7 @@ nav {
 nav li {
 	
 	list-style: none;
-	margin: 0 0 0 -.75em;
+	margin: 0 0 0 -20%;
 		}
 	
 nav li a {
@@ -33,7 +33,7 @@ nav li a {
 		}
 		
 #contact {
-	position: fixed; bottom: 0; left: 7%;
+	position: absolute; bottom: 15%; left: 15%; right: 18%;
 	font-weight: bold;
 	text-align: center;
 		}
