@@ -1,17 +1,78 @@
 /* BEGIN NAVIGATION BAR- Ethan*/
+
+/*BEGIN STYLE RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+	
+/* END STYLE RESET */	
+
+/*BEGIN BANNER*/
+#banner {
+	overflow: hidden;
+	height: 4em;
+	width: 150%;
+	}
+/*END BANNER */
+
+/*START NAV*/
+nav {
+	
+	}
 nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   position: relative;
   display: block;
-  height: 34px;
+  height: 4em;
   text-transform: uppercase;
   font-size: 0.6em;
   background: transparent url('nav_blue.jpg') repeat-x top left;
   font-family: Helvetica, Arial, Verdana, sans-serif;
   width: 100%;
+  top: -1.1em;
 }
+
 nav li {
   display: block;
   float: left;
@@ -20,20 +81,42 @@ nav li {
   border-right: 1px solid #ffffff;
   width: 24.75%;
 }
+
 nav li a {
   display: block;
   color: #ffffff;
   text-decoration: none;
-  padding: 10% 12% 0 12%;
-  height: 24px;
+  padding: 5% 12% 0 12%;
+  height: 2em;
   width: auto;
   text-align: center;
-}
-
-/* Hide contact from nav bar in mobile */
+	}
+	
+#lastnav {
+	border-right: none;
+	}
+	
 #contact {
 	display: none;
 	}
+/*END NAV*/
+
+/*BEGIN FOOTER*/
+#footer_desktop {
+	display: none;
+	}
+
+#footer_mobile {
+	position: fixed;
+	bottom: 0em;
+	display: inline-block;
+	width: 100%;
+	border: 1px solid orange;
+	overflow: hidden;
+	}
+/*END FOOTER*/
+/* Hide contact from nav bar in mobile */
+
 	
 /* END NAVIGATION BAR- Ethan*/
 
